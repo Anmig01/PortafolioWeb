@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+	scroll-behavior: auto;
+}
+
+/* INICIO HEADER*/
+.header{
+	position: fixed;
+	display: block;
+
+	width: 100%;
+	height: 60px;
+
+
+	background-color: #2BCCFF;
+}
+
+#logoMenu{
+	padding: 2px;
+	position: absolute;
+	top: 12px;
+	left: 17px;
+
+	width: 40px;
+
+}
+#logoMenu:hover{
+	background-color: #DFDFDF;
+	opacity: 0.5;
+	transition: 0.1s;
+}
+
+h1{
+	position: fixed;
+	left: 250px;
+
+	color: #CD7373;
+	
+	vertical-align: middle;
+	font-family: 'Alkalami', serif;
+	font-size: 45px;
+}
+
+#busqueda{
+	position: absolute;
+	right: 100px;
+	top: 12px;
+}
+#busqueda input{
+	width: 220px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 15px;
+
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	text-align: center;
+}
+#lupaBusqueda{
+	position: absolute;
+	right: 50px;
+	top: 18px;
+	width: 30px;
+}
+/* FIN HEADER*/
+/*---------------------------------------------------------------------------------------------*/
+/* INICIO SIDE_MENU*/
+.contenedor_menu{
+	position:relative;
+	top: 60px;
+
+	display: inline-block;
+	box-sizing: border-box;
+
+	width: 12em;
+	height: 25em;
+
+	/*opacity: 0;*/
+
+}
+.contenedor_menu ul{
+	list-style: none;
+	font-size: 1.35em;
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+	background-color: #C0C3FF;
+}
+.contenedor_menu li{
+	display: block;
+
+	box-sizing: border-box;
+	width: 100%;
+	height: 50px;
+
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.contenedor_menu li:hover{
+	background-color: #D7D9FF;
+
+}
+
+.contenedor_menu a {
+	text-decoration: none;
+	color: #C32323;
+	font-weight: bold;
+	vertical-align: middle;
+}
+/*FIN DE SIDE MENU*/
+/*-------------------------------------------------------------------------------------------*/
+/*INICIO CONTENIDO*/
+.contenedor_contenido-productos{
+	display: inline-block;
+	box-sizing: border-box;
+	position: absolute;
+
+	top: 60px;
+	background-color: #D9D9D9;
+	width: 100%;
+	height: 25em;
+}
+
+.contenedor_contenido-productos h2{
+	font-family: 'Montserrat', sans-serif;
+}
+.contenedor_contenido-productos > h2{
+	position: absolute;
+	left: 40%;
+}
+
+.contenedor_imagenes{
+	position: absolute;
+	top: 15%;
+	left: 15%;
+	box-sizing: border-box;
+	width: 60%;
+
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+  	grid-row-gap: 10px;
+  	grid-column-gap: 50%;
+  	grid-auto-rows: minmax(130px, auto);
+
+	color: blue;
+}
+
+.contenedor_imagenes{
+	
+}
+
+.contenedor_contenido-productos-empanadas{
+	grid-column: 1 / 2;
+	/*grid-row: 1;*/
+}
+.contenedor_contenido-productos-pasteles{
+	grid-column: 2 / 2;
+	/*grid-row: 2;*/
+}
+/* FIN CONTENIDO */
+/*-------------------------------------------------------------------------------------------*/
+/*INICIO FOOTER*/
+.contenedorfooter{
+	display: block;
+	position: absolute;
+	background-color: red;
+
+	top: 460px;
+
+	opacity: 0.1;
+
+}

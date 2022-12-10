@@ -1,0 +1,30 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+nav{
+	background: #333;
+}
+nav > *{
+	display: inline-block;
+}
+
+#logo{
+	margin: 10px;
+	color: #fff;
+	font-size: 27px;
+	font-family: 'Quicksand', sans-serif;
+}
+#formNav{
+	position: relative;
+	left: 250px;
+}
+#searchbar{
+	width: 500px;
+	height: 40px;
+	border-radius: 25px;
+}
+#searchbar::placeholder{
+	padding-left: 15px;
+}

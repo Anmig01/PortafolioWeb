@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@500&display=swap" rel="stylesheet">
+    <script src="https://hammerjs.github.io/dist/hammer.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Mercatienda Nolly</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mercatienda Nolly</h1>
+    </header>
+    <nav id="nav">
+        <div id="nav__cont">
+            <ul id="menuList">
+                <button id="linkInicio" onclick="mostrarInicio()"><li>Inicio</li></button>
+                <button id="linkProductos" onclick="mostrarProductos()"><li>Productos</li></button>
+                <button id="linkQuienesSomos" onclick="mostrarQuienes()"><li>Quienes Somos</li></button>
+                <button id="linkFaQ" onclick="mostrarFaQ()"><li>FaQ's</li></button>
+            </ul> 
+        </div>
+    </nav>
+    <section>
+        <p>
+            <strong>Dezlizar el mouse o el dedo a la izquierda sobre este texto para dezplegar el menu.</strong>
+            <br/>
+            <strong>Slide the mouse or your finger to the left over this text to display the menu.</strong>
+        </p>
+        <br/>
+
+        <div id="contenidoInicio">
+            <div>
+                <p>En esta seccion ira el contenido de la pagina de inicio,(fotos de la tienda, noticias nuevas,horario
+                    de atencion...etc) sera desplegada por defecto y cuando hagan click en el boton de Inicio del menu
+                </p>
+
+            </div>
+        </div>
+        <div id="contenidoProductos">
+            <div>
+                <p>En esta seccion ira el contenido de los productos(fotos, precios, ofertas...etc) sera desplegada
+                    cuando se haga click en el boton productos</p>
+            </div>
+        </div>
+        <div id="contenidoQuienesSomos">
+            <div>
+                <p>En esta seccion ira el contenido de quienes somos, nuentra trayectoria quien conforma la empresa
+                    nuentra mision y vision, se desplegara cuando se haga click en el boton Quienes somos</p>
+            </div>
+        </div>
+        <div id="contenidoFaQ">
+            <div>
+                <p>En esta seccion ira el contenido de preguntas frecuentes con sus respectivas respuestas ademas de un
+                    campo el cual permitira al usuario ingesar una pregunta propia</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h4>#Empresa</h4>
+        <h4>#Redes sociales</h4>
+        <h4>#Avisos Legales</h4>
+
+    </footer>
+
+</body>
+    <script src="script.js"></script>
+</html>

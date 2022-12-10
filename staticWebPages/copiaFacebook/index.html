@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CopyFacebook</title>
+</head>
+<body>
+    <!--Landig Page-->
+    <div id="header" class="toflex">
+        <header>
+            <h1>Copyfacebook</h1>
+        </header>
+        <p>copyFacebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.</p>
+    </div>
+    <div id="content" class="toflex">
+        <form id="sesion">
+            <!--<label for="User">User Name</label>-->
+            <input type="email" name="User" id="User" placeholder="Correo electrónico o número de teléfono">
+            <!--<label for="Password">Password</label>-->
+            <input type="password" name="Password" id="password" placeholder="Contraseña">
+            <input type="button" name="sesion" value="Iniciar sesión" id="btnSesion" onclick="Imprime()">
+        </form>
+        <a href="#" id="link">¿Has olvidado la contraseña?</a>
+        <hr size="1px" color="black">
+        <form id="crear">
+            <input type="button" name="Crear" value="Crear cuenta nueva" id="btnNueva">
+        </form>
+    </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

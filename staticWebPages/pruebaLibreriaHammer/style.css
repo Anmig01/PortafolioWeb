@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #eee;
+    height: 100%;
+}
+/*----------------- header------------------*/
+header{
+    box-sizing:border-box;
+    background-color:#f42;
+    
+    /*border: 2px solid red;*/
+}
+header h1{
+    font-family: 'Stick No Bills', sans-serif;
+    font-size:40px;
+    text-align:center;
+}
+/*------------------- nav -------------------*/
+nav{
+    position: absolute;
+    background-color: black;
+    opacity: 0.9;
+    display:none;
+
+    height:400px;
+    width: 130px;
+}
+
+#nav__cont{
+    height: 100%;
+    width: 100%;
+
+}
+
+#nav__cont ul{
+    list-style: none;
+    height: 100%;
+}
+#nav__cont li{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Stick No Bills',sans-serif;
+}
+#nav__cont li:hover{
+    background-color: #ddd;
+
+}
+#nav__cont button {
+    background-color: black;
+    text-decoration: none;
+    border: 0;
+    width: 100%;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+
+/*--------------- Content ------------------*/
+section{
+    padding: 15px;
+    font-size: 20px;
+}
+
+#contenidoInicio{
+    display: block;
+}
+
+#contenidoQuienesSomos,#contenidoFaQ,#contenidoProductos{
+    display: none;
+}
+
+/*---------------- footer -----------------*/
+footer{
+    position: absolute;
+    left: 7px;
+    width: 100%;
+    bottom: 3px;
+    display: flex;
+    flex-flow: row;
+}
+footer h4 {
+    flex-basis: 100px;
+    font-size: 12px;
+    text-align: center;
+
+}
+
